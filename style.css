@@ -11,6 +11,3 @@
 .row {
     display: flex;
 }
-.content:hover {
-    background-color: blue;
-}

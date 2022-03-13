@@ -16,3 +16,13 @@ for (let i = 0; i < 4; i++)
     divContainer.appendChild(row);
 }
 body.appendChild(divContainer);
+
+//hover
+const contentAll = document.querySelectorAll('.content');
+contentAll.forEach(contentAll => {
+    contentAll.addEventListener('mouseover', (e) => {
+        contentAll.setAttribute('style', 'background-color: blue');
+    });
+});
+
+
