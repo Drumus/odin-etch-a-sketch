@@ -26,3 +26,9 @@ contentAll.forEach(contentAll => {
 });
 
 
+function removeGrid() {
+    let allDivs = document.querySelectorAll('div');
+    allDivs.forEach(allDivs => {
+        allDivs.remove();
+    });
+}
