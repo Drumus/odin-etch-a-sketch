@@ -17,10 +17,10 @@ for (let i = 0; i < 4; i++)
 }
 body.appendChild(divContainer);
 */
+
+
+
 makeGrid(4);
-
-//hover
-
 
 
 function removeGrid() {
